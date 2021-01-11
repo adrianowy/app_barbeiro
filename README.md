@@ -41,3 +41,6 @@ https://reactnavigation.org/docs/getting-started
 * Deu um erro :: PANIC: Missing emulator engine program for 'x86' CPU.
 * Preciso colocar as pastas do Android nas variáveis de ambiente
 - https://medium.com/@khairold/setting-up-react-native-on-linux-without-android-studio-a65f3e011bbb
+
+> configuração do proxy para gradle 
+- https://stackoverflow.com/questions/41507037/how-to-set-proxy-server-for-gradle/41507323
