@@ -44,3 +44,21 @@ https://reactnavigation.org/docs/getting-started
 
 > configuração do proxy para gradle 
 - https://stackoverflow.com/questions/41507037/how-to-set-proxy-server-for-gradle/41507323
+
+* Não esquecer de instalar o JDK/JRE
+
+> WINDOWS
+> Se der erro de "Unable to load script. Make sure you're either running.....index.android.bundle"
+> run the command in the root folder
+> Reference: https://medium.com/@adityasingh_32512/solved-unable-to-load-script-from-assets-index-android-bundle-bdc5e3a3d5ff
+- react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+> LINUX
+> Reference: https://stackoverflow.com/questions/55441230/unable-to-load-script-make-sure-you-are-either-running-a-metro-server-or-that-yo
+You haven't started the bundler yet. Run ```npm start``` or ```react-native start``` in the root directory of your project before ```react-native run-android```.
+
+
+## Pra rodar o projeto
+
+- npm start
+- npx react-native run-android
